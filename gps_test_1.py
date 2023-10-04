@@ -1,8 +1,8 @@
 import serial
 
 # Define the serial port and baud rate for your GPS module
-serial_port = "com8"  # Adjust the port name as needed
-baud_rate = 9600
+serial_port = "com7"  # Adjust the port name as needed
+baud_rate = 115200
 
 # Open the serial port
 ser = serial.Serial(serial_port, baud_rate)
